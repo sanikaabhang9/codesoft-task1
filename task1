@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Portfolio</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        section {
+            padding: 40px 20px;
+            margin: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        header {
+            background:gray;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        /* Tech Stack Styling */
+.tech-stack {
+    margin-top: 20px;
+}
+
+.tech-stack span {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    backdrop-filter: blur(5px);
+}
+
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* About Section */
+        .about img {
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        /* Skills */
+        .skills ul {
+            list-style-type: square;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 5px;
+        }
+
+        /* Resume Button */
+        .resume a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .resume a:hover {
+            background: #555;
+        }
+
+        /* Contact */
+        .contact p {
+            margin: 5px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <heder>
+    <header id="home">
+    <h1>Sanika Abhang</h1>
+    <p>Web Developer| Front-End Developer| programmer </p>
+    </heder>
+
+    <div class="tech-stack">
+        <span>Home</span>
+        <span>About Me</span>
+        <span>My Skills</span>
+        <span>My project</span>
+        <span> Resume</span>
+        <span>Contact</span>
+        
+    </div>
+
+    
+</header>
+
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="C:\Users\T@LENT\Desktop\my image.jpg" alt="Your Photo">
+        <p>
+            Hello! I'm Sanika with experience in building
+            responsive and user-friendly websites. I enjoy turning ideas into
+            reality using code and continuously improving my skills.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML5 </li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Project One</h3>
+            <p>A simple responsive website built using HTML and CSS.</p>
+            <a href="C:/Users/T@LENT/Documents/myp.html" downloa>Download my project (pdf)</a>">
+        </div>
+
+
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>Click below to download my resume:</p>
+        <a href="C:/Users/T@LENT/Documents/resume.html#about" download>Download Resume (PDF)</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: sanikaabhang9@gmail.com</p>
+        <p>Phone: 8261987525</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 sanika Abhang. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
